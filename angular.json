@@ -106,23 +106,23 @@
         }
       }
     },
-    "customer-cms-framwork": {
+    "customer-cms-framework": {
       "projectType": "library",
-      "root": "projects/customer-cms-framwork",
-      "sourceRoot": "projects/customer-cms-framwork/src",
+      "root": "projects/customer-cms-framework",
+      "sourceRoot": "projects/customer-cms-framework/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/customer-cms-framwork/ng-package.json"
+            "project": "projects/customer-cms-framework/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/customer-cms-framwork/tsconfig.lib.prod.json"
+              "tsConfig": "projects/customer-cms-framework/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/customer-cms-framwork/tsconfig.lib.json"
+              "tsConfig": "projects/customer-cms-framework/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -130,9 +130,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/customer-cms-framwork/src/test.ts",
-            "tsConfig": "projects/customer-cms-framwork/tsconfig.spec.json",
-            "karmaConfig": "projects/customer-cms-framwork/karma.conf.js"
+            "main": "projects/customer-cms-framework/src/test.ts",
+            "tsConfig": "projects/customer-cms-framework/tsconfig.spec.json",
+            "karmaConfig": "projects/customer-cms-framework/karma.conf.js"
           }
         }
       }

@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class CustomerCmsFramworkComponent implements OnInit {
+export class CustomerCmsFrameworkComponent implements OnInit {
 
   constructor() { }
 

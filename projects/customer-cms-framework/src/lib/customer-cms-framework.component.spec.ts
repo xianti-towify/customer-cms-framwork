@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CustomerCmsFramworkComponent } from './customer-cms-framwork.component';
+import { CustomerCmsFrameworkComponent } from './customer-cms-framework.component';
 
 describe('CustomerCmsFramworkComponent', () => {
-  let component: CustomerCmsFramworkComponent;
-  let fixture: ComponentFixture<CustomerCmsFramworkComponent>;
+  let component: CustomerCmsFrameworkComponent;
+  let fixture: ComponentFixture<CustomerCmsFrameworkComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CustomerCmsFramworkComponent ]
+      declarations: [ CustomerCmsFrameworkComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CustomerCmsFramworkComponent);
+    fixture = TestBed.createComponent(CustomerCmsFrameworkComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

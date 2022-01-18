@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { CustomerCmsFramworkService } from './customer-cms-framwork.service';
+import { CustomerCmsFrameworkService } from './customer-cms-framework.service';
 
 describe('CustomerCmsFramworkService', () => {
-  let service: CustomerCmsFramworkService;
+  let service: CustomerCmsFrameworkService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(CustomerCmsFramworkService);
+    service = TestBed.inject(CustomerCmsFrameworkService);
   });
 
   it('should be created', () => {

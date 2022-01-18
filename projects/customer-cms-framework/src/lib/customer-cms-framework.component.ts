@@ -1,14 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-customer-cms-framwork',
-  template: `
-    <p>
-      customer-cms-framwork works!
-    </p>
-  `,
-  styles: [
-  ]
+  selector: 'customer-cms-framework',
+  templateUrl: 'customer-cms-framework.component.html',
+  styleUrls: ['customer-cms-framework.component.scss']
 })
 export class CustomerCmsFrameworkComponent implements OnInit {
 

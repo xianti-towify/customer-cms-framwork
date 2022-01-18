@@ -5,7 +5,7 @@
     "@angular/common": ">=13.0.2",
     "@angular/core": ">=13.0.2",
     "@towify/common-values": ">=0.1.11",
-    "customer-cms-sidebar": ">=0.0.5"
+    "customer-cms-sidebar": ">=0.0.7"
   },
   "dependencies": {
     "tslib": "^2.3.0"

@@ -1,0 +1,17 @@
+  # workplace
+/.idea
+*.xml
+*.DS_Store
+/tmp
+/dist
+node_modules/
+/.tscache
+/release
+!.gitignore
+/.yarnrc
+/.npmrc
+/.eslintcache
+package-lock.json
+/.angular
+/yarn.lock
+/yarn-error.log

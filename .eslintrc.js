@@ -57,8 +57,8 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     'import/prefer-default-export': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-expressions': ['error', { allowShortCircuit: true }],
-    '@typescript-eslint/no-unused-vars-experimental': 'error',
+    '@typescript-eslint/no-unused-expressions': ['off', { allowShortCircuit: true }],
+    '@typescript-eslint/no-unused-vars-experimental': 'off',
     'prefer-destructuring': 'off',
     'class-methods-use-this': 'off',
     'no-extend-native': 'off',
@@ -73,6 +73,6 @@ module.exports = {
     '@typescript-eslint/keyword-spacing': 'off',
     '@typescript-eslint/comma-dangle': ['error', 'never'],
     'func-names': 'off',
-    'no-underscore-dangle': ['error', { allow: ['_id'] }],
+    'no-underscore-dangle': ['error', { allow: ['_id'] }]
   }
 };

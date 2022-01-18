@@ -13,5 +13,5 @@ node_modules/
 /.eslintcache
 package-lock.json
 /.angular
-/yarn.lock
-/yarn-error.log
+yarn.lock
+yarn-error.log

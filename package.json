@@ -6,9 +6,28 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
   },
   "private": true,
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.html": "prettier --write --parser angular",
+    "*.component.html": "prettier --write --parser angular",
+    "*.{js,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md,json,scss}": "prettier --write"
+  },
   "dependencies": {
     "@angular/animations": "13.0.2",
     "@angular/common": "13.0.2",

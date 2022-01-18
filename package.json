@@ -7,10 +7,11 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint",
     "e2e": "ng e2e",
     "prepare": "husky install",
-    "pre-commit": "lint-staged"
+    "lint": "eslint --ext .js, .jsx, .ts, .tsx src",
+    "pre-commit": "lint-staged",
+    "lint-staged": "lint-staged"
   },
   "private": true,
   "husky": {

@@ -20,6 +20,10 @@ export class CustomerCmsFrameworkComponent implements OnInit {
   @Input()
   menus: CustomerCmsFramework.MenuType[] = [];
 
+  /** 菜单列表 ** */
+  @Input()
+  userInfo!: CustomerCmsFramework.UserInfo;
+
   /** 菜单点击事件 ** */
   @Output()
   menuClicked: EventEmitter<CustomerCmsFramework.MenuAction> = new EventEmitter<CustomerCmsFramework.MenuAction>();

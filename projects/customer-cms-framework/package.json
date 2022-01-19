@@ -1,11 +1,12 @@
 {
-  "name": "customer-cms-framwork",
+  "name": "customer-cms-framework",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": ">=13.0.2",
     "@angular/core": ">=13.0.2",
+    "@angular/router": ">=13.0.2",
     "@towify/common-values": ">=0.1.11",
-    "customer-cms-sidebar": ">=0.0.7"
+    "customer-cms-sidebar": ">=0.1.1"
   },
   "dependencies": {
     "tslib": "^2.3.0"
